@@ -1,4 +1,4 @@
-//! this is the Sound project final release for Multimedia course.
+//! this is the Sound project  release for Multimedia course.
 //! this project is a C program that reads the header of an audio file and determines if it is a WAV or OGG file.
 #include <stdio.h>
 #include <string.h>
