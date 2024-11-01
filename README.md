@@ -25,15 +25,14 @@ When you run the program, it will prompt you to enter the path of the audio file
 
 The program will then read the first 44 bytes of the file and determine if it is a WAV or OGG file. It will display the relevant information for each format, such as chunk ID, chunk size, format, sample rate, etc.
 
-## Additional Information## Test Output
+
+## Test Output
 
 Here is an example of the program's output when analyzing a WAV & AN OGG file:
 
 ![ File Output](FIle_Otput.jpg)
 
-And here is an example of the program's output when analyzing an OGG file:
-
-
+## Additional Information
 This program uses helper functions to convert bytes to little-endian integers and long integers. The `displayWavHeader` function displays the information specific to WAV files, while the `displayOggHeader` function displays the information specific to OGG files.
 
 Please note that this program only reads the first 44 bytes of the audio file. If you need to analyze the entire file, you may need to modify the code accordingly.
