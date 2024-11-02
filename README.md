@@ -28,7 +28,7 @@ The program will then read the first 44 bytes of the file and determine if it is
 
 ## Test Output
 
-Here is an example of the program's output when analyzing a WAV & AN OGG file:
+Here is an example of the program's output when analyzing a WAV & an OGG file:
 
 ![ File Output](FIle_Otput.jpg)
 
